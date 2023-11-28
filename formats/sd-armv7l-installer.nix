@@ -6,7 +6,7 @@
   ...
 }: {
   imports = [
-    "${toString modulesPath}/installer/sd-card/sd-image-armv7l-installer.nix"
+    "${toString modulesPath}/installer/sd-card/sd-image-armv7l-multiplatform-installer.nix"
   ];
 
   formatAttr = "sdImage";
